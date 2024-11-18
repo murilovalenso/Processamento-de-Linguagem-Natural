@@ -6,26 +6,33 @@ Análise de Sentimentos com Processamento de Linguagem Natural.
 
 Este projeto é voltado para a análise de sentimentos em textos utilizando técnicas de Processamento de Linguagem Natural (PLN).
 
-Sobre o conjunto de dados contém sentenças rotuladas com sentimentos positivos ou negativos, extraídas de opiniões de clientes da Amazon.
+Este conjunto de dados contém sentenças rotuladas com sentimento positivo ou negativo, extraídas de resenhas de produtos, filmes e restaurantes dos seguintes sites abaixo.
 
-======= Formato:
+● imdb.com
+
+● amazon.com
+
+● yelp.com
+
+=======
+Formato:
 sentença \t pontuação \n
 
 =======
 Detalhes:
-A pontuação é 1 (para positivo) ou 0 (para negativo).
-As sentenças vêm do site:
+A pontuação é 1 (para positivo) ou 0 (para negativo)
+As sentenças vêm de três sites/categorias diferentes:
 
+Para cada site, existem 500 sentenças positivas e 500 negativas. Essas sentenças foram selecionadas aleatoriamente de conjuntos de dados maiores de resenhas.
+Tentamos selecionar sentenças que têm uma conotação claramente positiva ou negativa, com o objetivo de que não houvesse sentenças neutras selecionadas.
 
-# amazon.com
+Para acessar os conjuntos de dados completos, consulte:
 
+● imdb: Maas et al., 2011 'Learning word vectors for sentiment analysis'
 
-Para o referido site existem 500 sentenças positivas e 500 negativas. Essas sentenças foram selecionadas aleatoriamente a partir de conjuntos de dados maiores de avaliações.
-Tentamos selecionar sentenças com uma conotação claramente positiva ou negativa, com o objetivo de não incluir sentenças neutras.
+● amazon: McAuley et al., 2013 'Hidden factors and hidden topics: Understanding rating dimensions with review text'
 
-Para os conjuntos de dados completos, consulte:
-
-# amazon: McAuley et al., 2013 "Hidden factors and hidden topics: Understanding rating dimensions with review text"
+● yelp: Desafio do conjunto de dados do Yelp http://www.yelp.com/dataset_challenge
 
 O foco principal do projeto é a limpeza e pré-processamento de dados textuais, além da aplicação de diferentes abordagens de vetorização de texto para análise de sentimentos.
 
