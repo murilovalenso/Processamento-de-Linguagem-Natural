@@ -1,31 +1,21 @@
-This dataset was created for the Paper 'From Group to Individual Labels using Deep Features', Kotzias et. al,. KDD 2015
-Please cite the paper if you want to use it :)
 
-It contains sentences labelled with positive or negative sentiment, extracted from reviews of products, movies, and restaurants
+Este conjunto de dados contém sentenças rotuladas com sentimentos positivos ou negativos, extraídas de opiniões de clientes da Amazon.
 
-=======
-Format:
-=======
-sentence \t score \n
-
+======= Formato:
+sentença \t pontuação \n
 
 =======
-Details:
-=======
-Score is either 1 (for positive) or 0 (for negative)	
-The sentences come from three different websites/fields:
+Detalhes:
+A pontuação é 1 (para positivo) ou 0 (para negativo).
+As sentenças vêm do site:
 
-imdb.com
+
 amazon.com
-yelp.com
-
-For each website, there exist 500 positive and 500 negative sentences. Those were selected randomly for larger datasets of reviews. 
-We attempted to select sentences that have a clearly positive or negative connotaton, the goal was for no neutral sentences to be selected.
 
 
+Para o referido existem 500 sentenças positivas e 500 negativas. Essas sentenças foram selecionadas aleatoriamente a partir de conjuntos de dados maiores de avaliações.
+Tentamos selecionar sentenças com uma conotação claramente positiva ou negativa, com o objetivo de não incluir sentenças neutras.
 
-For the full datasets look:
+Para os conjuntos de dados completos, consulte:
 
-imdb: Maas et. al., 2011 'Learning word vectors for sentiment analysis'
-amazon: McAuley et. al., 2013 'Hidden factors and hidden topics: Understanding rating dimensions with review text'
-yelp: Yelp dataset challenge http://www.yelp.com/dataset_challenge
+amazon: McAuley et al., 2013 "Hidden factors and hidden topics: Understanding rating dimensions with review text"
