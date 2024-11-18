@@ -4,10 +4,33 @@
 
 Análise de Sentimentos com Processamento de Linguagem Natural.
 
-Este projeto é voltado para a análise de sentimentos em textos utilizando técnicas de Processamento de Linguagem Natural (PLN). O foco principal do projeto é a limpeza e pré-processamento de dados textuais, além da aplicação de diferentes abordagens de vetorização de texto para análise de sentimentos.
+Este projeto é voltado para a análise de sentimentos em textos utilizando técnicas de Processamento de Linguagem Natural (PLN).
 
-Funcionalidades
-O projeto realiza uma série de etapas de pré-processamento em textos, com o objetivo de preparar os dados para análise de sentimentos, podendo ser utilizados em modelos de machine learning ou deep learning.
+Sobre o conjunto de dados contém sentenças rotuladas com sentimentos positivos ou negativos, extraídas de opiniões de clientes da Amazon.
+
+======= Formato:
+sentença \t pontuação \n
+
+=======
+Detalhes:
+A pontuação é 1 (para positivo) ou 0 (para negativo).
+As sentenças vêm do site:
+
+
+# amazon.com
+
+
+Para o referido site existem 500 sentenças positivas e 500 negativas. Essas sentenças foram selecionadas aleatoriamente a partir de conjuntos de dados maiores de avaliações.
+Tentamos selecionar sentenças com uma conotação claramente positiva ou negativa, com o objetivo de não incluir sentenças neutras.
+
+Para os conjuntos de dados completos, consulte:
+
+# amazon: McAuley et al., 2013 "Hidden factors and hidden topics: Understanding rating dimensions with review text"
+
+O foco principal do projeto é a limpeza e pré-processamento de dados textuais, além da aplicação de diferentes abordagens de vetorização de texto para análise de sentimentos.
+
+
+Sobre a funcionalidade do projeto será a realização de uma série de etapas de pré-processamento em textos, com o objetivo de preparar os dados para análise de sentimentos, podendo ser utilizados em modelos de machine learning ou deep learning.
 
 ## 1. Limpeza de Texto
 O processo de limpeza de texto inclui as seguintes operações:
